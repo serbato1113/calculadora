@@ -24,27 +24,27 @@
 
                 <!-- Div para los numero -->
                 <div class="row" style=" width: 90%; flex-wrap: wrap;">
-                    <input type="button" class="btn-number" onclick="" value="1">
-                    <input type="button" class="btn-number" onclick="" value="2">
-                    <input type="button" class="btn-number" onclick="" value="3">
-                    <input type="button" class="btn-number" onclick="" value="4">
-                    <input type="button" class="btn-number" onclick="" value="5">
-                    <input type="button" class="btn-number" onclick="" value="6">
-                    <input type="button" class="btn-number" onclick="" value="7">
-                    <input type="button" class="btn-number" onclick="" value="8">
-                    <input type="button" class="btn-number" onclick="" value="9">
-                    <input type="button" class="btn-number" onclick="" value="Limpiar">
-                    <input type="button" class="btn-number" onclick="" value="0">
-                    <input type="button" class="btn-number" onclick="" value="=">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="1">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="2">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="3">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="4">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="5">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="6">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="7">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="8">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="9">
+                    <input type="button" class="btn-number" onclick="clearInput();" value="Limpiar">
+                    <input type="button" class="btn-number" onclick="printNumber(this);" value="0">
+                    <input type="button" class="btn-number" onclick="printOperation();" value="=">
                 </div>
                 
 
                 <!-- Div para las propiedades -->
                 <div>
-                    <input type="button" class="btn-operator" onclick="" value="+">
-                    <input type="button" class="btn-operator" onclick="" value="-">
-                    <input type="button" class="btn-operator" onclick="" value="*">
-                    <input type="button" class="btn-operator" onclick="" value="/">
+                    <input type="button" class="btn-operator" onclick="printOperator(this);" value="+">
+                    <input type="button" class="btn-operator" onclick="printOperator(this);" value="-">
+                    <input type="button" class="btn-operator" onclick="printOperator(this);" value="*">
+                    <input type="button" class="btn-operator" onclick="printOperator(this);" value="/">
                 </div>
 
             </div>
@@ -58,7 +58,6 @@
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src='./js/javascrip.js'></script>
-    <p>sergio barrera </p>
     
 </body>
 </html>
